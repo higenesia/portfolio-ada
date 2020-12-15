@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #e4f1f5;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 60px;
+}
+.displayflex{
+    display: flex;
+    flex-direction: row;
+}
+
+.displayflexcolumna{
+    display: flex;
+    flex-direction: column;
+}
+
+.spacebetween{
+    justify-content: space-between; 
+
+}
+.margenizquierdo15{
+    margin-left: 15px;
+}
+.boton{
+
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    border: 1px solid red;
+    transition: 0.4s;
+}
+.fuenteh1{
+    font-weight: 300;
+}
+.margen-superior20{
+    margin-top:20px;
+}
+.hr{
+    border-top: 1px solid grey
+}
+
+.fuente-boton{
+    font-weight: 700;
+}
+    
+
+.fuente{
+    font-family:'Open Sans',Helvetica,Arial,sans-serif!important
+    ; 
+}
+
+.boton:active{
+    background-color: white;
+    color:red;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    border: 1px solid red;
+    transition: 0.4s;
+    }
+
+    .card{
+        background-color: ghostwhite;
+        border-radius: 15px;
+        border: 1px solid gray;
+        width: 20%;
+        height: 170px;
+    }
